@@ -1,19 +1,13 @@
-## ABOUT ME 👋
 **`Damianos Zoumpos`** <br>
-Hi, I’m **Damianos** — a final-year B.Sc. student at the **University of Piraeus**.  
-I’ve previously worked as a **Feature Engineer** and I’m currently doubling-down on **Backend Development** and **Machine Learning / AI**.
+Hi, I’m **Damianos** 
+---
 
-<!--
-**Damianzoub/Damianzoub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## ABOUT ME 
+- 🔭 I have worked as feature engineer for 6 months 
+- 🌱 I'm in my final year of Bachelor in **University of Piraeus**
+- 👯 I’m currently a member of IEEE UniWA on the group of **AI/ML**
+- 🤔 I’m currenlty learning **Backend Development**
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![Damianos's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)

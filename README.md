@@ -1,4 +1,5 @@
 **`Damianos Zoumpos`** <br>
+--
 Hi, I’m **Damianos** 
 
 ## ABOUT ME 
@@ -9,4 +10,4 @@ Hi, I’m **Damianos**
 
 ---
 
-![Damianos's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
+![Damianos's GitHub stats](https://github-readme-stats.vercel.app/api?username=Damianzoub&show_icons=true&theme=radical)

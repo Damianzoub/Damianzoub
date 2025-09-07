@@ -1,6 +1,5 @@
 **`Damianos Zoumpos`** <br>
 Hi, I’m **Damianos** 
----
 
 ## ABOUT ME 
 - 🔭 I have worked as feature engineer for 6 months 

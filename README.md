@@ -1,5 +1,5 @@
 ## ABOUT ME 👋
-**`Damianos Zoumpos`**
+**`Damianos Zoumpos`** <br>
 Hi, I’m **Damianos** — a final-year B.Sc. student at the **University of Piraeus**.  
 I’ve previously worked as a **Feature Engineer** and I’m currently doubling-down on **Backend Development** and **Machine Learning / AI**.
 

@@ -6,7 +6,7 @@ Hi, I’m **Damianos**
 - 🔭 I have worked as feature engineer for 6 months <br>- 🌱 I'm in my final year of Bachelor in **University of Piraeus**<br>- 👯 I’m currently a member of IEEE UniWA on the group of **AI/ML**<br>- 🤔 I’m currenlty learning **Backend Development**
 
 # 📊 GitHub Stats:
-![Damiano's GitHub stats](https://github-readme-stats.vercel.app/api?username=Damianzoub&show_icons=true&theme=radical)
+![Damiano's GitHub stats](https://github-readme-stats.vercel.app/api?username=Damianzoub&show_icons=true&theme=dark)
 
 # 📊 Most Used Languages:
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Damianzoub&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)

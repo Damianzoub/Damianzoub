@@ -7,7 +7,7 @@ Hi, I’m **Damianos**
 - 🌱 I'm in my final year of Bachelor in **University of Piraeus**
 - 👯 I’m currently a member of IEEE UniWA on the group of **AI/ML**
 - 👯 I´m currently a member in UniAI in the Eduation Team
-- 🤔 I’m currenlty learning **Backend Development**
+- 🤔 I’m currenlty learning **Machine Learning & AI**
 
 # 📊 GitHub Stats:
 ![Damiano's GitHub stats](https://github-readme-stats.vercel.app/api?username=Damianzoub&show_icons=true&theme=tokyonight)

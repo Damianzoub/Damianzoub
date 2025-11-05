@@ -6,7 +6,7 @@ Hi, I’m **Damianos**
 - 🔭 I have worked as feature engineer for 6 months 
 - 🌱 I'm in my final year of Bachelor in **University of Piraeus**
 - 👯 I’m currently a member of IEEE UniWA on the group of **AI/ML**
-- 👯 I´m currently a member in UniAI in the Eduation Team
+- 👯 I´m currently a member in UniAI in the **Expertise Team**
 - 🤔 I’m currenlty learning **Machine Learning & AI**
 
 # 📊 GitHub Stats:

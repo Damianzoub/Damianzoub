@@ -9,6 +9,9 @@ Hi, I’m **Damianos**
 - 👯 I´m currently a member in UniAI in the **Expertise Team**
 - 🤔 I’m currenlty learning **Machine Learning & AI**
 
+# Email:
+d.zoumpos04@gmail.com
+
 # 📊 GitHub Stats:
 ![Damiano's GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Damianzoub&show_icons=true&theme=tokyonight)
 

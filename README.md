@@ -8,6 +8,7 @@ Hi, I’m **Damianos**
 - 👯 I’m currently a member of IEEE UniWA on the group of **AI/ML**
 - 👯 I´m currently a member in UniAI in the **Expertise Team**
 - 🤔 I’m currenlty learning **Machine Learning & AI**
+- 💼 I´m currently an intern in SmartRep as an **AI/ML Developer**
 
 # Email:
 d.zoumpos04@gmail.com

@@ -13,10 +13,6 @@ Hi, I’m **Damianos**
 # Email:
 d.zoumpos04@gmail.com
 
-# 📊 GitHub Stats:
-![Damiano's GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Damianzoub&show_icons=true&theme=tokyonight)
-
-
 # 📊 Most Used Languages:
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Damianzoub&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 

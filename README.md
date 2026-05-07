@@ -10,8 +10,7 @@ Hi, I'm Damianos — an AI/ML engineer focused on Conversational AI, Voice Agent
 - Currently working on Conversational AI, Voice Agents, and ASR pipelines
 - Currently working as an AI/ML Intern at SmartRep
 
-# Email:
-d.zoumpos04@gmail.com
+# Email: d.zoumpos04@gmail.com
 
 # 📊 Most Used Languages:
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Damianzoub&theme=dark)

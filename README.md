@@ -12,7 +12,7 @@ Hi, I'm Damianos — an AI/ML engineer focused on Conversational AI, Voice Agent
 
 # Email: d.zoumpos04@gmail.com
 
-# 📊 Most Used Languages:
+# 📊 Streak Stats:
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Damianzoub&theme=dark)
 
 # 💻 Tech Stack

@@ -41,6 +41,7 @@
 -->
 
 **Evals & Obsevability**
+
 ![Langfuse](https://img.shields.io/badge/Langfuse-0A0A0A?style=for-the-badge&logo=langfuse&logoColor=white)
 ![Ragas](https://img.shields.io/badge/Ragas-FFB000?style=for-the-badge&logoColor=black)
 

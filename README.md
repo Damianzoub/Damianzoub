@@ -12,7 +12,7 @@
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**OpenJarvis**](https://github.com/Damianzoub/OpenJarvis) | modular AI desktop assistant with a HUD, voice input and a pluggable tool system · [write-up](https://portofolio-ly6o.vercel.app/blog/building-openjarvis) | Python · FastAPI · Tauri · TypeScript · multi-provider LLM |
+| [**OpenJarvis**](https://github.com/Damianzoub/OpenJarvis) | Modular AI desktop assistant with a HUD, voice input and a pluggable tool system · [write-up](https://portofolio-ly6o.vercel.app/blog/building-openjarvis) | Python · FastAPI · Tauri · TypeScript · multi-provider LLM |
 | [**HNSW from scratch**](https://github.com/Damianzoub/approximate-nearest-neighbor-graphs) | BSc thesis: approximate nearest-neighbour search, HNSW implemented from scratch and benchmarked against FAISS & hnswlib, with adaptive early termination · [write-up](https://portofolio-ly6o.vercel.app/blog/ann-search-and-hnsw-my-thesis-work) | Python · FAISS · hnswlib |
 | [**Portfolio RAG assistant**](https://portofolio-ly6o.vercel.app/) | "Ask about my work" assistant on my site: retrieval, citations, streaming · [write-up](https://portofolio-ly6o.vercel.app/blog/building-my-portfolios-rag-assistant) | Next.js · FastAPI · RAG |
 <!-- Add Agent Builder / Eval Platform / WattWise here once they're public and documented -->
@@ -40,7 +40,7 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 -->
 
-**Evals & Obsevability**
+**Evals & Observability**
 
 ![Langfuse](https://img.shields.io/badge/Langfuse-0A0A0A?style=for-the-badge&logo=langfuse&logoColor=white)
 ![Ragas](https://img.shields.io/badge/Ragas-FFB000?style=for-the-badge&logoColor=black)

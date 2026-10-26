@@ -21,7 +21,7 @@
 
 - **AI Developer @ SmartRep** (2026 to present): started as an intern, now full-time
 - **Feature Engineer, New Data Spaces for Green Mobility** (research programme, Apr–Aug 2025): feature engineering and ML modelling on raw mobility data
-- **Expertise team @ UniAI**: design Makeathon challenges on AI agents & inference optimisation
+- **Expertise team @ UniAI**
 - Erasmus exchange semester, Sweden
 
 **Certifications:** Claude Certified Architect – Foundations · NVIDIA Fundamentals of Deep Learning · NVIDIA Generative AI with Diffusion Models

@@ -1,0 +1,42 @@
+name: Penalty shootout
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: readme-assets
+  cancel-in-progress: false
+
+jobs:
+  penalty:
+    if: startsWith(github.event.issue.title, 'penalty|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Take the penalty
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+        run: python scripts/football.py penalty
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/penalty.svg data/penalties.json
+          git diff --cached --quiet || git commit -m "🥅 penalty by @${{ github.event.issue.user.login }}"
+          git pull --rebase
+          git push
+      - name: Reply and close the issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --repo ${{ github.repository }} --body-file /tmp/penalty_msg.md
+          gh issue close ${{ github.event.issue.number }} --repo ${{ github.repository }}

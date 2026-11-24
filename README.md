@@ -28,7 +28,7 @@ Pick a corner. The keeper watches where people shoot, so the popular corner gets
 [![Shoot centre](https://img.shields.io/badge/%E2%86%91%20Shoot%20centre-8b5cf6?style=for-the-badge)](https://github.com/Damianzoub/Damianzoub/issues/new?title=penalty%7Ccentre&body=Just+press+%22Create%22.+The+keeper+is+waiting.)
 [![Shoot right](https://img.shields.io/badge/Shoot%20right%20%E2%86%97-8b5cf6?style=for-the-badge)](https://github.com/Damianzoub/Damianzoub/issues/new?title=penalty%7Cright&body=Just+press+%22Create%22.+The+keeper+is+waiting.)
 
-<img src="https://raw.githubusercontent.com/Damianzoub/Damianzoub/main/assets/penalty-1795538565.svg" alt="Penalty shootout scoreboard: visitors' goals versus keeper saves, a replay of the last kick, recent kicks and a golden boot leaderboard" width="100%" />
+<img src="https://raw.githubusercontent.com/Damianzoub/Damianzoub/main/assets/penalty-1795553237.svg" alt="Penalty shootout scoreboard: visitors' goals versus keeper saves, a replay of the last kick, recent kicks and a golden boot leaderboard" width="100%" />
 
 </div>
 

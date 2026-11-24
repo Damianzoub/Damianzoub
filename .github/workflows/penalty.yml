@@ -30,7 +30,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/penalty.svg data/penalties.json
+          # GitHub caches README images by URL, so change the URL on every kick
+          sed -i -E "s#assets/penalty.svg(\?v=[0-9]+)?#assets/penalty.svg?v=$(date +%s)#" README.md
+          git add assets/penalty.svg data/penalties.json README.md
           git diff --cached --quiet || git commit -m "🥅 penalty by @${{ github.event.issue.user.login }}"
           git pull --rebase
           git push

@@ -1,5 +1,5 @@
 {
-  "goals": 2,
+  "goals": 3,
   "saves": 0,
   "shots": [
     {
@@ -15,9 +15,16 @@
       "dive": "centre",
       "goal": true,
       "ts": "2026-11-24T16:32:12+00:00"
+    },
+    {
+      "user": "Damianzoub",
+      "dir": "left",
+      "dive": "centre",
+      "goal": true,
+      "ts": "2026-11-24T16:38:20+00:00"
     }
   ],
   "scorers": {
-    "Damianzoub": 2
+    "Damianzoub": 3
   }
 }

@@ -1,5 +1,5 @@
 {
-  "goals": 4,
+  "goals": 5,
   "saves": 1,
   "shots": [
     {
@@ -36,9 +36,17 @@
       "dive": "left",
       "goal": false,
       "ts": "2026-11-24T20:47:17+00:00"
+    },
+    {
+      "user": "lvpakou",
+      "dir": "centre",
+      "dive": "left",
+      "goal": true,
+      "ts": "2026-11-24T20:48:04+00:00"
     }
   ],
   "scorers": {
-    "Damianzoub": 4
+    "Damianzoub": 4,
+    "lvpakou": 1
   }
 }

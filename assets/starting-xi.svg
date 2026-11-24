@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 520" width="860" height="520" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <pattern id="stripes" width="120" height="440" patternUnits="userSpaceOnUse">
+      <rect width="60" height="440" fill="#121418"/>
+      <rect x="60" width="60" height="440" fill="#16191f"/>
+    </pattern>
+    <radialGradient id="shirt" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#2a1748"/>
+      <stop offset="100%" stop-color="#0b0b10"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .line { fill: none; stroke: #8b5cf6; stroke-opacity: .45; stroke-width: 2; }
+      .num  { fill: #f5f3ff; font-size: 15px; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+      .name { fill: #e5e7eb; font-size: 12.5px; font-weight: 600; text-anchor: middle; }
+      .role { fill: #a78bfa; font-size: 10px; letter-spacing: 1.5px; text-anchor: middle; }
+      .player circle.body { fill: url(#shirt); stroke: #8b5cf6; stroke-width: 2.5; }
+      .player { animation: pulse 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .82 } }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="860" height="520" rx="14" fill="#0d1117"/>
+  <text x="30" y="32" fill="#f5f3ff" font-size="18" font-weight="700">STARTING XI</text>
+  <text x="152" y="32" fill="#a78bfa" font-size="13" font-weight="600" letter-spacing="1">· 4-3-3 · Damianos FC</text>
+  <text x="830" y="32" fill="#6b7280" font-size="11" text-anchor="end">attacking →</text>
+
+  <!-- pitch -->
+  <g transform="translate(20,50)">
+    <rect width="820" height="440" fill="url(#stripes)" rx="4"/>
+    <rect class="line" x="0" y="0" width="820" height="440" rx="4"/>
+    <line class="line" x1="410" y1="0" x2="410" y2="440"/>
+    <circle class="line" cx="410" cy="220" r="62"/>
+    <circle cx="410" cy="220" r="3" fill="#8b5cf6" fill-opacity=".6"/>
+    <rect class="line" x="0" y="100" width="120" height="240"/>
+    <rect class="line" x="0" y="160" width="42" height="120"/>
+    <rect class="line" x="700" y="100" width="120" height="240"/>
+    <rect class="line" x="778" y="160" width="42" height="120"/>
+    <path class="line" d="M120 180 A 50 50 0 0 1 120 260"/>
+    <path class="line" d="M700 180 A 50 50 0 0 0 700 260"/>
+    <rect x="820" y="190" width="10" height="60" fill="none" stroke="#c4b5fd" stroke-width="2"/>
+    <rect x="-10" y="190" width="10" height="60" fill="none" stroke="#c4b5fd" stroke-width="2"/>
+  </g>
+
+  <!-- passing move: GK -> CB -> CDM -> LW -> ST -> goal -->
+  <path id="move" d="M80 270 L230 222 L410 270 L640 130 L700 270 L848 262" fill="none" stroke="#c4b5fd" stroke-opacity=".25" stroke-width="1.5" stroke-dasharray="4 6"/>
+  <!-- GK -->
+  <g class="player"><circle class="body" cx="80" cy="270" r="24"/><text class="num" x="80" y="270">1</text></g>
+  <text class="name" x="80" y="312">Docker</text><text class="role" x="80" y="326">GK</text>
+
+  <!-- DEF -->
+  <g class="player"><circle class="body" cx="230" cy="120" r="24"/><text class="num" x="230" y="120">2</text></g>
+  <text class="name" x="230" y="162">Postgres</text><text class="role" x="230" y="176">RB</text>
+  <g class="player"><circle class="body" cx="230" cy="222" r="24"/><text class="num" x="230" y="222">4</text></g>
+  <text class="name" x="230" y="264">FastAPI</text><text class="role" x="230" y="278">CB</text>
+  <g class="player"><circle class="body" cx="230" cy="324" r="24"/><text class="num" x="230" y="324">5</text></g>
+  <text class="name" x="230" y="366">Langfuse</text><text class="role" x="230" y="380">CB</text>
+  <g class="player"><circle class="body" cx="230" cy="426" r="24"/><text class="num" x="230" y="426">3</text></g>
+  <text class="name" x="230" y="468">Ragas</text><text class="role" x="230" y="482">LB</text>
+
+  <!-- MID -->
+  <g class="player"><circle class="body" cx="440" cy="150" r="24"/><text class="num" x="440" y="150">8</text></g>
+  <text class="name" x="440" y="192">LangChain</text><text class="role" x="440" y="206">CM</text>
+  <g class="player"><circle class="body" cx="410" cy="270" r="24"/><text class="num" x="410" y="270">6</text></g>
+  <text class="name" x="410" y="312">LangGraph</text><text class="role" x="410" y="326">CDM</text>
+  <g class="player"><circle class="body" cx="440" cy="390" r="24"/><text class="num" x="440" y="390">10</text></g>
+  <text class="name" x="440" y="432">LlamaIndex</text><text class="role" x="440" y="446">CM</text>
+
+  <!-- FWD -->
+  <g class="player"><circle class="body" cx="640" cy="130" r="24"/><text class="num" x="640" y="130">7</text></g>
+  <text class="name" x="640" y="172">Next.js</text><text class="role" x="640" y="186">LW</text>
+  <g class="player"><circle class="body" cx="700" cy="270" r="27" stroke-width="3"/><text class="num" x="700" y="270">9</text></g>
+  <rect x="716" y="243" width="16" height="16" rx="3" fill="#8b5cf6"/><text x="724" y="252" fill="#fff" font-size="11" font-weight="800" text-anchor="middle" dominant-baseline="central">C</text>
+  <text class="name" x="700" y="315">Python</text><text class="role" x="700" y="329">ST · CAPTAIN</text>
+  <g class="player"><circle class="body" cx="640" cy="410" r="24"/><text class="num" x="640" y="410">11</text></g>
+  <text class="name" x="640" y="452">TypeScript</text><text class="role" x="640" y="466">RW</text>
+
+  <g filter="url(#glow)">
+    <circle r="7" fill="#ffffff" stroke="#8b5cf6" stroke-width="2">
+      <animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;0.12;0.31;0.58;0.75;1;1" keyTimes="0;0.15;0.32;0.55;0.68;0.82;1" calcMode="linear">
+        <mpath href="#move"/>
+      </animateMotion>
+    </circle>
+  </g>
+  <text x="790" y="232" fill="#c4b5fd" font-size="16" font-weight="800" text-anchor="middle" opacity="0">GOAL!
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.8;0.84;0.95;1" dur="6s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- bench -->
+  <text x="30" y="508" fill="#6b7280" font-size="11.5">SUBS: scikit-learn · Tailwind CSS · Claude API</text>
+</svg>
